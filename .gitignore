@@ -1,0 +1,13 @@
+# Ignora a pasta de módulos do Node.js
+node_modules/
+
+# Ignora arquivos de lock (escolha o que você usa)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+package.json
+# Ignora outros arquivos comuns do Node.js que não precisam ser versionados
+npm-debug.log*
+*.log
+.env
+.DS_Store # Arquivo comum do macOS
